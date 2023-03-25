@@ -21,7 +21,7 @@ const Contact = () => {
         Contact Us
       </p>
       {/* Section */}
-      <div className="border-2 mx-8 md:m-8 flex flex-col md:flex-row shadow-xl">
+      <div className="border-2 max-w-[280px] md:max-w-full md:m-8 flex flex-col md:flex-row shadow-xl">
         {/* Left */}
         <div className="bg-cyan-400 text-gray-800 md:w-[40%] md:gap-2 flex flex-col p-4 md:p-10 ">
           <p className="font-semibold text-4xl pb-4 md:mt-14">
@@ -36,15 +36,21 @@ const Contact = () => {
             <div className="flex flex-col gap-6 mt-8">
               <div className="flex gap-4">
                 <FaPhoneAlt size={30} />
-                <span className="font-semibold text-xl">092-12345678</span>
+                <span className="font-semibold text-lg md:text-xl">
+                  092-12345678
+                </span>
               </div>
               <div className="flex gap-4">
                 <FaInbox size={30} />
-                <span className="font-semibold text-xl">092-98676522</span>
+                <span className="font-semibold text-lg md:text-xl">
+                  092-98676522
+                </span>
               </div>
               <div className="flex gap-4">
                 <FaSms size={30} />
-                <span className="font-semibold text-xl">Dummymail989.com</span>
+                <span className="font-semibold text-lg md:text-xl">
+                  Dummymail989.com
+                </span>
               </div>
               {/* Image of heart */}
             </div>
