@@ -66,7 +66,7 @@ const Contact = () => {
         {/* Right */}
         <div className="px-3 md:px-8 py-2 text-cyan-400">
           <div className="grid md:grid-cols-2 grid-flow-row gap-8">
-            <div className=" text-xl">
+            <div className=" text-xl pr-4">
               <p>First Name:</p>
               <input
                 className="max-w-[90%] border-2 border-cyan-400 rounded-md p-2 mt-2 bg-inherit"
@@ -74,7 +74,7 @@ const Contact = () => {
                 placeholder="Enter first name"
               />
             </div>
-            <div className="  text-xl">
+            <div className="  text-xl pr-4">
               <p>Last Name:</p>
               <input
                 className="max-w-[90%] border-cyan-400 bg-inherit border-2 rounded-md p-2 mt-2"
@@ -82,7 +82,7 @@ const Contact = () => {
                 placeholder="Enter last name"
               />
             </div>
-            <div className="  text-xl">
+            <div className="  text-xl pr-4">
               <p>First Email:</p>
               <input
                 className="max-w-[90%] border-cyan-400 bg-inherit border-2 rounded-md p-2 mt-2"
@@ -90,7 +90,7 @@ const Contact = () => {
                 placeholder="Enter email address"
               />
             </div>
-            <div className="text-xl">
+            <div className="text-xl pr-4">
               <p>Phone number:</p>
               <input
                 className="max-w-[90%] border-cyan-400 bg-inherit border-2 rounded-md p-2 mt-2"
