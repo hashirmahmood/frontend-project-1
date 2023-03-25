@@ -21,7 +21,7 @@ const Contact = () => {
         Contact Us
       </p>
       {/* Section */}
-      <div className="border-2 max-w-[280px] md:max-w-full md:m-8 flex flex-col md:flex-row shadow-xl">
+      <div className="border-2 max-w-[330px] md:max-w-full md:m-8 flex flex-col md:flex-row shadow-xl">
         {/* Left */}
         <div className="bg-cyan-400 text-gray-800 md:w-[40%] md:gap-2 flex flex-col p-4 md:p-10 ">
           <p className="font-semibold text-4xl pb-4 md:mt-14">
