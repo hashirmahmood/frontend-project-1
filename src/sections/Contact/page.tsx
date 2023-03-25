@@ -10,7 +10,7 @@ const Contact = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="flex flex-col items-center mt-[80px] md:mt-[270px] px-[20px] relative"
+      className="flex flex-col items-center mt-[80px] md:mt-[270px]  relative"
     >
       <div className="absolute blue__gradient w-[60%] h-[60%] rounded-full" />
       <div>
@@ -21,7 +21,7 @@ const Contact = () => {
         Contact Us
       </p>
       {/* Section */}
-      <div className="border-2 mx-4 md:m-8 flex flex-col md:flex-row shadow-xl">
+      <div className="border-2 mx-8 md:m-8 flex flex-col md:flex-row shadow-xl">
         {/* Left */}
         <div className="bg-cyan-400 text-gray-800 md:w-[40%] md:gap-2 flex flex-col p-4 md:p-10 ">
           <p className="font-semibold text-4xl pb-4 md:mt-14">
