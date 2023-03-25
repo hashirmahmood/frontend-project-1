@@ -10,7 +10,7 @@ const Contact = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="flex flex-col items-center mt-[80px] md:mt-[270px] relative"
+      className="flex flex-col items-center mt-[80px] md:mt-[270px] px-[20px] relative"
     >
       <div className="absolute blue__gradient w-[60%] h-[60%] rounded-full" />
       <div>
